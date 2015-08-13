@@ -34,10 +34,12 @@ dependencies {
     // tag::actuator[]
     compile("org.springframework.boot:spring-boot-starter-actuator")
     // end::actuator[]
+    compile("org.springframework.boot:spring-boot-starter-actuator")
     testCompile("junit:junit")
     testCompile("org.springframework.boot:spring-boot-starter-test")
+
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.5'
+    gradleVersion = '2.6'
 }
