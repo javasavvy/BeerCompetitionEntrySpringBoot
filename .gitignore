@@ -43,7 +43,6 @@ Temporary Items
 .apdisk
 
 #Non Defaults
-.idea/workspace.xml
-.idea/libraries
-build
-.gradle
+.idea/
+build/
+.gradle/
