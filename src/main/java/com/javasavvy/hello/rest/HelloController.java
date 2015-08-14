@@ -1,4 +1,4 @@
-package hello;
+package com.javasavvy.hello.rest;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
