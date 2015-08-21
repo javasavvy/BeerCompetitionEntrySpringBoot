@@ -53,7 +53,7 @@ tests.register("tests._base.json",
 			t.is("number", typeof testObj.number);
 		},
 		function toJsonStringObject(t){
-			t.is('"hello"', dojo.toJson(new String("hello")));
+			t.is('"beer"', dojo.toJson(new String("hello")));
 		}
 	]
 );

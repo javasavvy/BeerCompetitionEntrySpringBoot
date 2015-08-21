@@ -3,7 +3,7 @@
  */
 package hello;
 
-import com.javasavvy.hello.web.Application;
+import com.javasavvy.beer.Application;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

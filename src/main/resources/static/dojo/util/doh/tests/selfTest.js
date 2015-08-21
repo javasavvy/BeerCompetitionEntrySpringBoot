@@ -41,7 +41,7 @@ define(["doh/runner"], function(doh) {
 		check("assertTrue", [true]);
 		check("assertTrue", [{}]);
 		check("assertTrue", [1]);
-		//check("assertTrue", ["hello"]);
+		//check("assertTrue", ["beer"]);
 
 		check("assertFalse", [false]);
 		check("assertFalse", [0]);
@@ -93,7 +93,7 @@ define(["doh/runner"], function(doh) {
 		check("assertFalse", [true]);
 		check("assertFalse", [{}]);
 		check("assertFalse", [1]);
-		//check("assertFalse", ["hello"]);
+		//check("assertFalse", ["beer"]);
 
 		check("assertTrue", [false]);
 		check("assertTrue", [0]);

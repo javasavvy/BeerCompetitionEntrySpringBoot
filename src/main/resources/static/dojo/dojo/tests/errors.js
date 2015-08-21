@@ -25,7 +25,7 @@ define([
 				t.t(testError instanceof TestError, "testError should be an instance of TestError");
 				t.f(testError instanceof OtherError, "testError should not be an instance of OtherError");
 				t.f("getBar" in testError, "testError should not have a 'getBar' property");
-				t.is("hello", testError.message, "testError's message property should be 'hello'");
+				t.is("hello", testError.message, "testError's message property should be 'beer'");
 				if((new Error()).stack){
 					t.t(!!testError.stack, "custom error should have stack set");
 				}

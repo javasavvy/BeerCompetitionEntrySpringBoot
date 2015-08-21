@@ -14,7 +14,7 @@ result = "";
     };
 
     var say_hello = function() {
-        result += 'hello world';
+        result += 'beer world';
     };
 
     say_hello_twice();

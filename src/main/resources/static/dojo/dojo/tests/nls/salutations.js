@@ -29,7 +29,7 @@ define({ root:
  'zh-tw': "Chinese (Traditional)",
  hello: "Hello",
  dojo: "Dojo",
- hello_dojo: "${hello}, ${dojo}!",
+ hello_dojo: "${beer}, ${dojo}!",
  file_not_found:"The file you requested, ${0}, is not found."
 }
 //end v1.x content

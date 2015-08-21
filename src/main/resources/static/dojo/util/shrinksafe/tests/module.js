@@ -49,7 +49,7 @@ try{
 
 			eval(src.compressed);
 			// make sure it runs to completion
-			t.assertEqual("hello worldhello world", result);
+			t.assertEqual("beer worldhello world", result);
 			// globals must not be renamed
 			t.assertEqual("function", typeof CallMe);
 			delete result;

@@ -1,4 +1,4 @@
-package com.javasavvy.hello.rest;
+package com.javasavvy.beer.rest;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class HelloController {
 
-    @RequestMapping("/")
+    @RequestMapping("/hi")
     public String index() {
         return "Greetings from Spring Boot!";
     }

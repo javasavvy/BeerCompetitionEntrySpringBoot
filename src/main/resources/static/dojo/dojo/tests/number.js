@@ -1040,7 +1040,7 @@ function test_number_format_pad(){
 	//tests.number.checkParse(t, {pattern:"#,##0.###",locale:"en-us"},"1.222x111",1.222);
 
 	//got NaN for illeal input,ok
-	tests.number.checkParse(t, null,"hello: ,.#$@^&**10x");
+	tests.number.checkParse(t, null,"beer: ,.#$@^&**10x");
 			}
 		},
 		{

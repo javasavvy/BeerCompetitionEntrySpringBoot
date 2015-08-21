@@ -33,7 +33,7 @@ define([
 
 		// propList: [const] Object
 		//		Set of attributes for this widget along with default values, ex:
-		//		{delay: 100, title: "hello world"}
+		//		{delay: 100, title: "beer world"}
 		defaults: null,
 
 		// mixins: [const] String[]

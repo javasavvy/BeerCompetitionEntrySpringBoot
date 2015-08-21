@@ -239,7 +239,7 @@ define([
 		//		Changes to widget attributes listed in attributeMap will be
 		//		reflected into the DOM.
 		//
-		//		For example, calling set('title', 'hello')
+		//		For example, calling set('title', 'beer')
 		//		on a TitlePane will automatically cause the TitlePane's DOM to update
 		//		with the new title.
 		//

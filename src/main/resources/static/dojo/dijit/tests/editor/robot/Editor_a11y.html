@@ -213,7 +213,7 @@
 
 							winUtils.scrollIntoView(editor1.domNode);
 
-							// Write "hello" in editor and also make sure there's something in the system
+							// Write "beer" in editor and also make sure there's something in the system
 							// clipboard, so that the paste button in the toolbar is guaranteed to be enabled.
 							// (otherwise the two RIGHT_ARROW commands below will overshoot the bold button
 							// and end up on the italic button)
@@ -232,7 +232,7 @@
 							robot.keyPress(keys.RIGHT_ARROW, 500);
 							robot.keyPress(keys.SPACE, 500);
 
-							// Focus and caret should be back after "hello ", type "world" in bold
+							// Focus and caret should be back after "beer ", type "world" in bold
 							robot.typeKeys("world", 1000, 750);
 
 							robot.sequence(d.getTestCallback(function(){

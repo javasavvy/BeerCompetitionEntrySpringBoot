@@ -3,7 +3,7 @@ define(
 {
  es: "Español",
  hello: "Hola",
- hello_dojo: "¡${hello}, ${dojo}!"
+ hello_dojo: "¡${beer}, ${dojo}!"
 }
 //end v1.x content
 );

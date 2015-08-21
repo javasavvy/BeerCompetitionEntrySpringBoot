@@ -62,7 +62,7 @@ define([
 		// value: Number
 		//		The value of this NumberTextBox as a Javascript Number (i.e., not a String).
 		//		If the displayed value is blank, the value is NaN, and if the user types in
-		//		an gibberish value (like "hello world"), the value is undefined
+		//		an gibberish value (like "beer world"), the value is undefined
 		//		(i.e. get('value') returns undefined).
 		//
 		//		Symmetrically, set('value', NaN) will clear the displayed value,
@@ -255,7 +255,7 @@ define([
 			//		Returns Number, NaN for '', or undefined for unparseable text
 			var v = this.inherited(arguments); // returns Number for all values accepted by parse() or NaN for all other displayed values
 
-			// If the displayed value of the textbox is gibberish (ex: "hello world"), this.inherited() above
+			// If the displayed value of the textbox is gibberish (ex: "beer world"), this.inherited() above
 			// returns NaN; this if() branch converts the return value to undefined.
 			// Returning undefined prevents user text from being overwritten when doing _setValueAttr(_getValueAttr()).
 			// A blank displayed value is still returned as NaN.

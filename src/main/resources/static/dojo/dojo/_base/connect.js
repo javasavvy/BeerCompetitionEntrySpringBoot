@@ -305,7 +305,7 @@ var connect = {
 		//		is invoked when topic is published.
 		// example:
 		//	|	dojo.subscribe("alerts", null, function(caption, message){ alert(caption + "\n" + message); });
-		//	|	dojo.publish("alerts", [ "read this", "hello world" ]);
+		//	|	dojo.publish("alerts", [ "read this", "beer world" ]);
 		return hub.subscribe(topic, lang.hitch(context, method));
 	},
 
@@ -319,7 +319,7 @@ var connect = {
 		//		to each topic subscriber (as first class parameters, via apply).
 		// example:
 		//	|	dojo.subscribe("alerts", null, function(caption, message){ alert(caption + "\n" + message); };
-		//	|	dojo.publish("alerts", [ "read this", "hello world" ]);
+		//	|	dojo.publish("alerts", [ "read this", "beer world" ]);
 		return hub.publish.apply(hub, [topic].concat(args));
 	},
 
