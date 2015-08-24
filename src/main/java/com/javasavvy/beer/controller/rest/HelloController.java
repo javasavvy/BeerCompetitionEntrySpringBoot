@@ -1,4 +1,4 @@
-package com.javasavvy.beer.controller;
+package com.javasavvy.beer.controller.rest;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
