@@ -1,17 +1,18 @@
-package com.javasavvy.beer.rest;
+package com.javasavvy.beer.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by Justin on 8/20/2015.
  */
 
-@RestController
+@Controller
 public class IndexController {
 
     @RequestMapping("/")
     public String index() {
+        System.out.println("index controller");
         return "indexthyme";
     }
 }
